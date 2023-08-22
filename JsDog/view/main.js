@@ -112,7 +112,7 @@ function searchDog() {
     let productOfStore = store.searchDog(value);
     let str = ''
     for (let i = 0; i < productOfStore.length; i++) {
-            str = `
+            str += `
             <table>
                 <tr>
                     <td><img src="${productOfStore[i].img}" alt=""></td>
